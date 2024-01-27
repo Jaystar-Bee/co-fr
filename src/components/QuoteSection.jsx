@@ -30,8 +30,10 @@ function QuoteSection() {
       ([entry]) => {
         if (entry.isIntersecting && entry.intersectionRatio > 0) {
           imageRef.current.classList.add("translate-x-0");
+          imageRef.current.classList.remove("translate-x-[500px]");
         } else {
           imageRef.current.classList.remove("translate-x-0");
+          imageRef.current.classList.add("translate-x-[500px]");
         }
       },
       {
