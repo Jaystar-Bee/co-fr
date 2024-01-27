@@ -49,7 +49,7 @@ function TheFooter() {
             {socials.map((social, index) => (
               <li
                 key={index}
-                className="mb-3 last:mb-0 text-sm sm:text-base hover:text-neutral-200 duration-200"
+                className="mb-3 last:mb-0 text-xs xs:text-sm sm:text-base hover:text-neutral-200 duration-200"
               >
                 <a
                   href={social.url}
@@ -67,7 +67,7 @@ function TheFooter() {
             {others.map((other, index) => (
               <li
                 key={index}
-                className="mb-3 last:mb-0 text-sm sm:text-base hover:text-neutral-200 duration-200"
+                className="mb-3 last:mb-0 text-xs xs:text-sm sm:text-base hover:text-neutral-200 duration-200"
               >
                 <a href={other.url} className=" flex items-start space-x-[3px]">
                   <p>{other.name}</p>

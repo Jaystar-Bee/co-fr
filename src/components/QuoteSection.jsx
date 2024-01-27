@@ -28,9 +28,7 @@ function QuoteSection() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log("INtersecting", entry.isIntersecting);
-        console.log("Ratio", entry.intersectionRatio > 0);
-        if (entry && entry.isIntersecting && entry.intersectionRatio > 0) {
+        if (entry.isIntersecting && entry.intersectionRatio > 0) {
           imageRef.current.classList.add("translate-x-0");
         } else {
           imageRef.current.classList.remove("translate-x-0");

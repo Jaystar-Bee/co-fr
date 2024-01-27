@@ -4,7 +4,7 @@ function FanbaseSection() {
   return (
     <div className="xs:text-balance">
       <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[40%] mx-auto text-center">
-        <h1 className="text-white font-bold text-xl xxs:text-3xl xs:text-5xl">
+        <h1 className="text-white font-bold text-xl xxs:text-2xl xs:text-3xl sm:text-5xl">
           JOIN TOP ARTISTS, BUILD YOUR{" "}
           <span className="text-primary">FANBASE</span>
         </h1>
