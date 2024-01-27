@@ -1,0 +1,32 @@
+.up__down_animation{
+    animation: up_down 4s  .2s infinite;
+}
+
+.down__up_animation{
+    animation: down_up 4s  .2s infinite;
+    color: #232525;
+}
+@keyframes up_down {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 50%;
+    }
+    100% {
+        top: 0;
+    }
+    
+}
+
+@keyframes down_up {
+    0% {
+        top: 50%;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: 50%;
+    }
+}
